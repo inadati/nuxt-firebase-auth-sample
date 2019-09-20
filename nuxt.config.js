@@ -2,6 +2,7 @@ const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
   mode: 'universal',
+  srcDir: 'client',
   /*
   ** Headers of the page
   */

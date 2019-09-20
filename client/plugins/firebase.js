@@ -1,6 +1,6 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
-import config from '~/env/firebase'
+import config from '~~/firebase.config'
 
 if (!firebase.apps.length) {
   firebase.initializeApp(config)
