@@ -61,7 +61,6 @@
 
 <script>
   import { fireAuth } from '~/plugins/firebase'
-
   const Cookie = process.client ? require('js-cookie') : undefined
 
   export default {
